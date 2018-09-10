@@ -12,6 +12,7 @@
 		4E96EBC2211351A4007F9207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E96EBC0211351A4007F9207 /* Main.storyboard */; };
 		4E96EBC4211351A4007F9207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E96EBC3211351A4007F9207 /* Assets.xcassets */; };
 		4E96EBC7211351A4007F9207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E96EBC5211351A4007F9207 /* LaunchScreen.storyboard */; };
+		4E9C97AE21158CBB0028C6DC /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C97AD21158CBB0028C6DC /* FindViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4E96EBC3211351A4007F9207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E96EBC6211351A4007F9207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E96EBC8211351A5007F9207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E9C97AD21158CBB0028C6DC /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4E96EBBC211351A4007F9207 /* AppDelegate.swift */,
 				4E96EBBE211351A4007F9207 /* ViewController.swift */,
+				4E9C97AD21158CBB0028C6DC /* FindViewController.swift */,
 				4E96EBC0211351A4007F9207 /* Main.storyboard */,
 				4E96EBC3211351A4007F9207 /* Assets.xcassets */,
 				4E96EBC5211351A4007F9207 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				4E96EBBF211351A4007F9207 /* ViewController.swift in Sources */,
 				4E96EBBD211351A4007F9207 /* AppDelegate.swift in Sources */,
+				4E9C97AE21158CBB0028C6DC /* FindViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AGQ66YJG2R;
 				INFOPLIST_FILE = FindMyPokemon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AGQ66YJG2R;
 				INFOPLIST_FILE = FindMyPokemon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
